@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>How to get involved with InclusiveVT</title>
+ <topichead navtitle="Home">
+  <topicmeta>
+   <shortdesc>Learn more about InclusiveVT, events, and how to give.</shortdesc>
+  </topicmeta>
+  <topicref href="homelanding.md" format="markdown"></topicref>
+  <topicref href="aboutus.dita"></topicref>
+  <topicref href="events.dita"></topicref>
+  <topicref href="giving.md" format="markdown"></topicref>
+  <topicref href="announcements.dita"></topicref>
+ </topichead>
+ <topichead navtitle="For Students">
+  <topicmeta>
+   <shortdesc>Recipes for breakfast foods including oatmeal, french toast, and muffins.</shortdesc>
+  </topicmeta>
+  <topicref href="student-landing.md" navtitle="Student Home" format="markdown"></topicref>
+  <topicref href="diversityedustudent.dita" navtitle="DiversityEdu for Students"></topicref>
+  <topicref href="strong-together.dita" navtitle="Strong Together Initiative"></topicref>
+ </topichead>
+ <topichead navtitle="For Faculty and Staff">
+  <topicmeta>
+   <shortdesc>Recipes for breakfast drinks including a mimosa, smoothie, and coffee.</shortdesc>
+  </topicmeta>
+  <topicref href="facultystafflanding.md" format="markdown"></topicref>
+  <topicref href="diversityedufacultystaff.dita" navtitle="DiversityEdu for Faculty and Staff"></topicref>
+  <topicref href="pedagogy.dita" navtitle="Inclusive Pedagogy Initiative"></topicref>
+  <topicref href="diversity.dita" navtitle="Diversity Development Program"></topicref>
+ </topichead>
+ <topichead navtitle="For Alumni">
+  <topicmeta>
+   <shortdesc>Recipes for breakfast drinks including a mimosa, smoothie, and coffee.</shortdesc>
+  </topicmeta>
+  <topicref href="alumnilanding.md" format="markdown"></topicref>
+  <topicref href="tailgate.dita" navtitle="Multicultural Tailgate"></topicref>
+  <topicref href="vtday.dita" navtitle="Virginia Tech Day"></topicref>
+  <topicref href="localinvolvement.dita" navtitle="Local/Regional Involvement"></topicref>
+  <topicref href="legacy.dita" navtitle="Legacy through Leadership"></topicref>
+  <topicref href="board.dita" navtitle="Multicultural Alumni Advisory Board"></topicref>
+  <topicref href="project2022.dita" navtitle="Project 2022"></topicref>
+  
+ </topichead>
+</map>
