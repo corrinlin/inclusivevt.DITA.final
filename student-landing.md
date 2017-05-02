@@ -1,7 +1,7 @@
 # InclusiveVT for Students
 
-##What is InclusiveVT?
-InclusiveVT is a movement designed by the Office of Inclusion and Diversity as a commitment to Ut Prosim (that I may serve) in the spirit of community, diversity, and excellence.
+There are several different programs and events throughout the year that students can get involved in. Here you will find information related to becoming involved with the movement as a current student.
+* DiversityEdu is a course to educate students about bias and stereotypes within themselves and their community.
+* The Strong Together Intiative is designed to raise awareness and facilitate action in an effort to promote diversity.
 
-##How can I get involved?
-There are several different programs and events that students can get involved in. Here you will find information related to becoming involved with the movement as a current student.
+ 
