@@ -1,0 +1,147 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en-us" lang="en-us">
+
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script>
+            /**
+             * If an old URL is given, redirect to the corresponding topic from the WebHelp Responsive
+             */
+            var actualLocation = window.location.href;
+            var newLocation;
+            if (actualLocation.indexOf('/#')!=-1) {
+                newLocation = actualLocation.replace(/\/#/g, "/");
+                window.location.replace(newLocation);
+            }
+            if (actualLocation.match(/\/index\.(.*)#/gi)!=null) {
+                newLocation = actualLocation.replace(/\/index\.(.*)#/gi, "/");
+                window.location.replace(newLocation);
+            }
+            
+            function debug(msg, object){
+                console.log(msg, object);
+            }
+            function executeQuery(){
+                $('#searchForm').submit();
+                return true;
+            }
+        </script>
+        
+	    <link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/webhelp_responsive_topic.css" />
+        
+        <!-- Latest compiled and minified Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/bootstrap/css/bootstrap.min.css" />
+        
+        <!-- Bootstrap Optional theme -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/bootstrap/css/bootstrap-theme.min.css" />
+        
+        <!-- Changes and comments, as side-notes  -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/p-side-notes.css" />
+        
+        <!-- Template default styles  -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/resources/css/wt_default.css" />
+
+        
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="oxygen-webhelp/resources/localization/strings.js"></script>
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/localization.js"></script>
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/parseuri.js"></script>
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.cookie.js"></script>
+        
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.highlight-3.js"></script>
+        <!-- Skin resources -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/variants/tree/oxygen red/skin.css" />
+        <!-- EXM-36950 - Expand the args.hdf parameter here -->
+        
+        
+    <title>How to get involved with InclusiveVT</title></head>
+    <body class="wh_main_page">
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+<nav class="navbar navbar-default wh_header">
+    <div class="container">
+        <div class="wh_header_flex_container">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="index.html" class=" wh_logo hidden-xs "></a>
+                    <div class=" wh_publication_title "><a href="index.html"><span class="title">How to get involved with InclusiveVT</span></a></div>
+                    
+                </div>
+                <button type="button" data-target=".wh_top_menu_and_indexterms_link" data-toggle="collapse" class="navbar-toggle collapsed wh_toggle_button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse">
+                
+                <div class=" wh_top_menu "><ul><li class=" has-children "><span class="topicref"><a href="homelanding.html">Home</a></span><ul><li><span class="topicref"><a href="homelanding.html" data-id="topic_rlm_ft3_tz">Welcome to InclusiveVT!</a></span></li><li><span class="topicref"><a href="aboutus.html" data-id="topic_eht_zsf_qz">About us</a></span></li><li><span class="topicref"><a href="events.html" data-id="topic_jvm_wsf_qz">Events</a></span></li><li><span class="topicref"><a href="giving.html" data-id="office_for_inclusion_and_diversity_advancement">Office for Inclusion and Diversity Advancement</a></span></li><li><span class="topicref"><a href="announcements.html" data-id="c-al-announcements">Announcements</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="student-landing.html">For Students</a></span><ul><li><span class="topicref"><a href="student-landing.html" data-id="inclusivevt_for_students">InclusiveVT for Students</a></span></li><li><span class="topicref"><a href="diversityedustudent.html" data-id="concept_ndr_cjb_qz">DiversityEdu</a></span></li><li><span class="topicref"><a href="strong-together.html" data-id="c-al-strongtogether">Strong Together Initiative</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="facultystafflanding.html">For Faculty and Staff</a></span><ul><li><span class="topicref"><a href="facultystafflanding.html" data-id="faculty_staff">Faculty/Staff</a></span></li><li><span class="topicref"><a href="diversityedufacultystaff.html" data-id="concept_r2q_bvc_qz">DiversityEdu</a></span></li><li><span class="topicref"><a href="pedagogy.html" data-id="concept_dsk_zkb_qz">Inclusive Pedagogy Initiative</a></span></li><li><span class="topicref"><a href="diversity.html" data-id="c-fs-diversity">Diversity Development Program</a></span></li></ul></li><li class=" has-children "><span class="topicref"><a href="alumnilanding.html">For Alumni</a></span><ul><li><span class="topicref"><a href="alumnilanding.html" data-id="alumni">Alumni</a></span></li><li><span class="topicref"><a href="tailgate.html" data-id="lw-tailgate">Multicultural Tailgate</a></span></li><li><span class="topicref"><a href="vtday.html" data-id="concept_n14_svc_qz">Virginia Tech Day</a></span></li><li><span class="topicref"><a href="localinvolvement.html" data-id="concept_s1v_wvc_qz">Local and Regional Involvement</a></span></li><li><span class="topicref"><a href="legacy.html" data-id="concept_jdc_tlb_qz">Legacy Through Leadership</a></span></li><li><span class="topicref"><a href="board.html" data-id="topic_yvn_4nb_qz">Multicultural Alumni Advisory Board</a></span></li><li><span class="topicref"><a href="project2022.html" data-id="topic_v2s_hrf_qz">Project 2022</a></span></li></ul></li></ul></div>
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+        <!-- Search form -->
+        <div class=" wh_search_input navbar-form wh_main_page_search " role="form">
+          
+          <div class="wh_welcome"></div>          
+          <form id="searchForm" method="get" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" /><button type="submit" class="wh_search_button"><span>Search</span></button></div></form>
+          
+        </div>
+        <div class="wh_content_area ">
+            
+            <!-- This is the placeholder for the main page tiles. -->
+            <div class="container wh_content_flex_container">
+                <!-- This is the placeholder for the main page tiles. -->
+                
+                <!--
+                    This is the placeholder for the main page entries
+                    presented in a tree-like fashion.
+                -->
+                <div class=" wh_main_page_toc "><div class=" wh_main_page_toc_accordion_header "><span class="topicref"><a href="homelanding.html">Home</a></span><div class=" wh_toc_shortdesc " href="javascript:void(0)">Learn more about InclusiveVT, events, and how to give.
+</div></div><div class=" wh_main_page_toc_accordion_entries "><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="homelanding.html" data-id="topic_rlm_ft3_tz">Welcome to InclusiveVT!</a></span></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="aboutus.html" data-id="topic_eht_zsf_qz">About us</a></span></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="events.html" data-id="topic_jvm_wsf_qz">Events</a></span></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="giving.html" data-id="office_for_inclusion_and_diversity_advancement">Office for Inclusion and Diversity Advancement</a></span></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="announcements.html" data-id="c-al-announcements">Announcements</a></span><div class=" wh_toc_shortdesc " href="announcements.html" data-id="c-al-announcements">
+</div></div></div><div class=" wh_main_page_toc_accordion_header "><span class="topicref"><a href="student-landing.html">For Students</a></span><div class=" wh_toc_shortdesc " href="javascript:void(0)">Students are the cornerstone of life at Virginia Tech, and they represent the heart of the university.
+</div></div><div class=" wh_main_page_toc_accordion_entries "><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="student-landing.html" data-id="inclusivevt_for_students">InclusiveVT for Students</a></span></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="diversityedustudent.html" data-id="concept_ndr_cjb_qz">DiversityEdu</a></span><div class=" wh_toc_shortdesc " href="diversityedustudent.html" data-id="concept_ndr_cjb_qz">Diversity Edu is a research based, online course for students. The course is aimed to   educate students and equip them with necessary skills to combat diversity and recognize biases and   stereotypes within themselves and their community. 
+</div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="strong-together.html" data-id="c-al-strongtogether">Strong Together Initiative</a></span><div class=" wh_toc_shortdesc " href="strong-together.html" data-id="c-al-strongtogether">The Strong Together Initiative is a campus-wide effort to promote the values set forth in the Virginia Tech Principles of Community.
+</div></div></div><div class=" wh_main_page_toc_accordion_header "><span class="topicref"><a href="facultystafflanding.html">For Faculty and Staff</a></span><div class=" wh_toc_shortdesc " href="javascript:void(0)">Faculty and staff are the role models that students look to for guidance at the
+    university.
+</div></div><div class=" wh_main_page_toc_accordion_entries "><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="facultystafflanding.html" data-id="faculty_staff">Faculty/Staff</a></span></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="diversityedufacultystaff.html" data-id="concept_r2q_bvc_qz">DiversityEdu</a></span><div class=" wh_toc_shortdesc " href="diversityedufacultystaff.html" data-id="concept_r2q_bvc_qz">Search committees are made up of faculty and staff for the purpose of recuiting and screening candidates for a posted academic position.
+</div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="pedagogy.html" data-id="concept_dsk_zkb_qz">Inclusive Pedagogy Initiative</a></span><div class=" wh_toc_shortdesc " href="pedagogy.html" data-id="concept_dsk_zkb_qz">The Inclusive Pedagogy Initiative advances the theory and practice of inclusion in the   teaching and learning domains across Virginia Tech. 
+</div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="diversity.html" data-id="c-fs-diversity">Diversity Development Program</a></span><div class=" wh_toc_shortdesc " href="diversity.html" data-id="c-fs-diversity">Diversity Development helps to enhance university-wide diversity and inclusion efforts that contribute to the core mission of Virginia Tech.
+</div></div></div><div class=" wh_main_page_toc_accordion_header "><span class="topicref"><a href="alumnilanding.html">For Alumni</a></span><div class=" wh_toc_shortdesc " href="javascript:void(0)">Alumni are integral to communicating the multicultural experience at Virginia Tech to current and incoming students.
+</div></div><div class=" wh_main_page_toc_accordion_entries "><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="alumnilanding.html" data-id="alumni">Alumni</a></span></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="tailgate.html" data-id="lw-tailgate">Multicultural Tailgate</a></span><div class=" wh_toc_shortdesc " href="tailgate.html" data-id="lw-tailgate">Here is information related to our 2016 event.
+</div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="vtday.html" data-id="concept_n14_svc_qz">Virginia Tech Day</a></span><div class=" wh_toc_shortdesc " href="vtday.html" data-id="concept_n14_svc_qz">This event brings together multicultural alumni with prospective students in an effort to increase multicultural enrollment.
+</div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="localinvolvement.html" data-id="concept_s1v_wvc_qz">Local and Regional Involvement</a></span><div class=" wh_toc_shortdesc " href="localinvolvement.html" data-id="concept_s1v_wvc_qz">There are ways to be involved with InclusiveVT without making the trek back to   Blacksburg through the local Virginia Tech alumni association.
+</div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="legacy.html" data-id="concept_jdc_tlb_qz">Legacy Through Leadership</a></span><div class=" wh_toc_shortdesc " href="legacy.html" data-id="concept_jdc_tlb_qz">Legacy Through Leadership is an initiative created to engage multicultural alumni with   current multicultural students. 
+</div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="board.html" data-id="topic_yvn_4nb_qz">Multicultural Alumni Advisory Board</a></span><div class=" wh_toc_shortdesc " href="board.html" data-id="topic_yvn_4nb_qz">The Multicultural Alumni Advisory Board seeks to engage Virginia Tech graduates in     university efforts to strengthen its commitment to a diverse and inclusive     community.
+</div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="project2022.html" data-id="topic_v2s_hrf_qz">Project 2022</a></span><div class=" wh_toc_shortdesc " href="project2022.html" data-id="topic_v2s_hrf_qz">Project 2022 is a project with a goal of having 2,000 black student applications to Virginia Tech by the year 2022.
+</div></div></div></div>
+                
+            </div>
+        </div>
+        <nav class="navbar navbar-default wh_footer">
+  <div class=" footer-container text-center ">
+    WebHelp output generated by <a class="oxyFooter" href="http://www.oxygenxml.com" target="_blank"> &lt;oXygen/&gt; XML Author </a>
+  </div>
+</nav>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="oxygen-webhelp/resources/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="oxygen-webhelp/template/resources/js/wt_default.js" type="text/javascript"></script>
+        
+        
+    </body>
+</html>
