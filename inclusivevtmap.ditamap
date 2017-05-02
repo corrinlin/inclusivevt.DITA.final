@@ -14,7 +14,8 @@
  </topichead>
  <topichead navtitle="For Students">
   <topicmeta>
-   <shortdesc>Recipes for breakfast foods including oatmeal, french toast, and muffins.</shortdesc>
+   <shortdesc>Students are the cornerstone of life at Virginia Tech, and it is important that they
+    get involved with InclusiveVT.</shortdesc>
   </topicmeta>
   <topicref href="student-landing.md" navtitle="Student Home" format="markdown"></topicref>
   <topicref href="diversityedustudent.dita" navtitle="DiversityEdu for Students"></topicref>
@@ -22,7 +23,8 @@
  </topichead>
  <topichead navtitle="For Faculty and Staff">
   <topicmeta>
-   <shortdesc>Recipes for breakfast drinks including a mimosa, smoothie, and coffee.</shortdesc>
+   <shortdesc>Faculty and staff are the role models that students look to for guidance at the
+    university.</shortdesc>
   </topicmeta>
   <topicref href="facultystafflanding.md" format="markdown"></topicref>
   <topicref href="diversityedufacultystaff.dita" navtitle="DiversityEdu for Faculty and Staff"></topicref>
@@ -31,7 +33,7 @@
  </topichead>
  <topichead navtitle="For Alumni">
   <topicmeta>
-   <shortdesc>Recipes for breakfast drinks including a mimosa, smoothie, and coffee.</shortdesc>
+   <shortdesc>Alumni are the examples of success and whatever.</shortdesc>
   </topicmeta>
   <topicref href="alumnilanding.md" format="markdown"></topicref>
   <topicref href="tailgate.dita" navtitle="Multicultural Tailgate"></topicref>
